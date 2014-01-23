@@ -1,5 +1,11 @@
 # django-nested-inlines
 
+## Be careful
+
+__I did some convenient(*) fixes...__
+
+(*) convenient for me
+
 ## Overview
 
 Extends Alain Trinh ([http://github.com/Soaa-/](http://github.com/Soaa-/))'s django-nested-inlines code to work with the latest version of [Django Grappelli](http://github.com/sehmaschine/django-grappelli).
@@ -15,7 +21,7 @@ This is still beta-quality software, and certainly has its share of bugs. Use it
 
 ## Installation
 
-`pip install -e git+git://github.com/datahub/grappelli-nested-inlines.git#egg=grappelli-nested-inlines`
+`pip install -e git+git://github.com/quijot/grappelli-nested-inlines.git#egg=grappelli-nested-inlines`
 
 ## Usage
 
