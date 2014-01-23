@@ -8,8 +8,7 @@
     }
     .nested-inline .nested-inline {
         border: 1px solid #AAAAAA;
-        margin: 12px 1% 17px 1%;
-        width: 97.6%;
+        width: auto;
     }
 </style>
 
@@ -67,7 +66,7 @@
                             {% endfor %}
                         {% endfor %}
                     {% endfor %}
-                    <div class="grp-td grp-tools-container">
+                    <div class="grp-td grp-tools-container" style="width:0">
                         {% spaceless %}
                         <ul class="grp-tools">
                             {% if inline_admin_form.show_url %}<li><a href="{% url 'admin:view_on_site' inline_admin_form.original_content_type_id inline_admin_form.original.pk %}" class="grp-icon grp-viewsite-link" title="{% trans 'View on Site' %}" target="_blank"></a></li>{% endif %}
