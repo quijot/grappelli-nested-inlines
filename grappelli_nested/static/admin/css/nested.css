@@ -359,11 +359,19 @@ body.popup .submit-row {
 }
 
 .nested-inline {
-	margin: 10px;
+	margin: auto;
+	border: 1px solid #AAAAAA;
+	width: 100%;
+}
+
+.nested-inline .nested-inline {
+	margin: auto;
+	border: 1px solid #AAAAAA;
+	width: auto;
 }
 
 td > .nested-inline {
-	margin: 0px;
+	margin: auto;
 }
 
 .nested-inline-bottom-border {
